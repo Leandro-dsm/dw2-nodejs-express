@@ -9,7 +9,7 @@ em bloco
 //Por questões de segurança, evitar o uso de VAR
 //No escopo global, CONST não pode ser alterado
 //CONST x LET x VAR
-const nome = "Érlon"; //uma constante precisa de um valor inicial
+const nome = "Leandro"; //uma constante precisa de um valor inicial
 let Nome; //Permite iniciar a variável vazia
 //const nome = "Pedro" -> resulta em um erro pois não posso atribuir variável novamente
 //let Nome -> resulta em um erro
@@ -125,6 +125,6 @@ const start = (function(app) {
     console.log(`executando imediatamente o app ${app}.`)
 })("whatsapp")
 
-//git add .
+// git add .
 // git commit -m "@seu-username"
-//git push
+// git push
